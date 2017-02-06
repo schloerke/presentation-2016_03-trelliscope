@@ -1,0 +1,185 @@
+{
+	"display-information" : {
+		"icon" : [
+			"icon-file-info"
+		],
+		"panel_header" : [
+			"Display Information"
+		],
+		"panel_description" : [
+			"Information about this display and the data it is based on."
+		],
+		"body_id" : [
+			"displayInformationOutput"
+		],
+		"apply_button" : false,
+		"cancel_button" : false,
+		"close_button" : true
+	},
+	"panel-layout" : {
+		"icon" : [
+			"icon-th"
+		],
+		"panel_header" : [
+			"Panel Layout"
+		],
+		"panel_description" : [
+			"Specify the arrangement of the panels on each page by entering the number of rows and columns of panels per page."
+		],
+		"body_id" : [
+			"panelLayoutOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true
+	},
+	"panel-function" : {
+		"icon" : [
+			"icon-panel-edit"
+		],
+		"panel_header" : [
+			"Panel Function Editor"
+		],
+		"panel_description" : [
+			"Edit the code that generates each panel."
+		],
+		"body_id" : [
+			"panelFunctionOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true,
+		"footer" : [
+			"Note: this feature is currently disabled - panels will not update when you click 'Apply'..."
+		]
+	},
+	"panel-labels" : {
+		"icon" : [
+			"icon-cog-list"
+		],
+		"panel_header" : [
+			"Panel Labels"
+		],
+		"panel_description" : [
+			"Specify which cognostics to view as labels underneath each panel. <br/>Select cognostics to view by clicking and/or dragging the 'Show' column."
+		],
+		"body_id" : [
+			"panelLabelListOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true
+	},
+	"add-related-display" : {
+		"icon" : [
+			"icon-plus-square-o"
+		],
+		"panel_header" : [
+			"Related Displays"
+		],
+		"panel_description" : [
+			"Select additional displays (if any) that have been created on the same partitioning to view with the currently selected display.  If additional displays are selected, only one subset per page will be shown."
+		],
+		"body_id" : [
+			"relatedDisplayListOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true
+	},
+	"active-cog" : {
+		"icon" : [
+			"icon-active-cog"
+		],
+		"panel_header" : [
+			"Active Cognostics"
+		],
+		"panel_description" : [
+			"Specify which cognostics are available for sorting, filtering, and sampling."
+		],
+		"body_id" : [
+			"activeCogListOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true
+	},
+	"cog-table-sort-filter" : {
+		"icon" : [
+			"icon-sort-filter"
+		],
+		"panel_header" : [
+			"Cognostics View / Sort / Filter"
+		],
+		"panel_description" : [
+			"View cognostics in a table and specify sort order or filtering of panels.  <br/>Shift-click on the panel header sorting buttons for multi-column sorting."
+		],
+		"body_id" : [
+			"cogTableControlsOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true
+	},
+	"univar-filter" : {
+		"icon" : [
+			"icon-bars"
+		],
+		"panel_header" : [
+			"Visual Univariate Filter"
+		],
+		"panel_description" : [
+			"Filter panels based on a single cognostic guided by a visual display of the distribution of the cognostic.  <br/>Select a variable to view and click and drag on the display to specify filtering."
+		],
+		"body_id" : [
+			"cogUniFilterControlsOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true
+	},
+	"bivar-filter" : {
+		"icon" : [
+			"icon-stats"
+		],
+		"panel_header" : [
+			"Visual Bivariate Filter"
+		],
+		"panel_description" : [
+			"Filter panels based on pairs of cognostics through an interactive scatterplot.  <br/>Only quantitative variables are supported."
+		],
+		"body_id" : [
+			"cogBiFilterControlsOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true
+	},
+	"multivar-filter" : {
+		"icon" : [
+			"icon-multivar"
+		],
+		"panel_header" : [
+			"Visual Multivariate Filter"
+		],
+		"panel_description" : [
+			"Filter panels based on a two-dimensional projection pursuit of multiple quantitative cognostics.  <br/>This can help uncover interesting regions of the cognostics space."
+		],
+		"body_id" : [
+			"cogMultiFilterControlsOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true,
+		"footer" : [
+			"Note: this interactive filter is not yet bound to the back-end - panels will not update when you click 'Apply'..."
+		]
+	},
+	"sample-panels" : {
+		"icon" : [
+			"icon-sample"
+		],
+		"panel_header" : [
+			"Sample Panels"
+		],
+		"panel_description" : [
+			"Specify how to sample from panels in their current sorted and filtered state (coming soon)."
+		],
+		"body_id" : [
+			"cogSampleControlsOutput"
+		],
+		"apply_button" : true,
+		"cancel_button" : true
+	}
+}
